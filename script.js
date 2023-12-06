@@ -3,8 +3,8 @@ function isSameType(value1, value2) {
 	 if(typeof value1===typeof value2){
           return true;
       }
-		 else if(typeof value1===NaN) return true;
-		 else if(typeof value2===NaN) return true;
+		 // else if(typeof value1===NaN) return true;
+		 // else if(typeof value2===NaN) return true;
       else {
         return false;
       }
