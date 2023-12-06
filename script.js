@@ -4,7 +4,7 @@ function isSameType(value1, value2) {
           return true;
       }
 		 // else if(typeof value1===NaN) return true;
-		 // else if(typeof value2===NaN) return true;
+		 else if(typeof value2===NaN && typeof value1===NaN) return true;
       else {
         return false;
       }
